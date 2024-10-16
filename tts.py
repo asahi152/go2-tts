@@ -148,3 +148,5 @@ if __name__ == "__main__":
     convert_pcm_to_wav(pcm_file,wav_file)
 
     play_audio(wav_file)
+
+    input('语音已播放完毕，请按下回车键退出！')
